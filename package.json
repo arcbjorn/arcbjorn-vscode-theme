@@ -1,0 +1,31 @@
+{
+    "name": "arcbjorn-vscode-theme",
+    "displayName": "arcbjorn-vscode-theme",
+    "description": "VS Code color theme by Arcbjorn",
+    "publisher": "arcbjorn",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "icon": "icons/arcbjorn-theme.png",
+    "author": {
+        "name": "Oleg Luganskiy",
+        "url": "https://www.linkedin.com/in/oleg-luganskiy"
+    },
+    "repository": {
+        "url": "https://github.com/arcbjorn/arcbjorn-vscode-theme",
+        "type": "git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Arcbjorn Color Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Arcbjorn Color Theme-color-theme.json"
+            }
+        ]
+    }
+}
